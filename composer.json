@@ -1,0 +1,37 @@
+{
+    "name": "moezmissaoui/quotes",
+                                                                                                                                                        "description": "Quotes is a simple package to generate a random quotes",
+    "keywords": [
+        "API",
+        "Laravel",
+        "Package"
+    ],
+
+    "authors": [
+        {
+            "name": "Moez Missaoui",
+            "email": "moeiz.missaoui@gmail.com",
+            "homepage": "https://github.com/MoezMissaoui"
+        }
+    ],
+    "homepage": "https://github.com/MoezMissaoui/quotes",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Moezmissaoui\\Quotes\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Moezmissaoui\\Quotes\\Http\\Providers\\QuoteProvider"
+            ]
+        }
+    }
+}
